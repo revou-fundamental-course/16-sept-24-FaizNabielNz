@@ -15,7 +15,7 @@ nav {
   display: flex;
 }
 nav a {
-  color: #17cf97;
+  color: black;
   text-align: center;
   padding: 8px;
   text-decoration: none;
@@ -38,7 +38,6 @@ p {
   margin: 3px 0px 20px 0px;
 }
 .photo-banner {
-  border: 1px solid;
   height: 480px;
   background-image: url(../Assets/Banner1.jpg);
   background-size: cover;
