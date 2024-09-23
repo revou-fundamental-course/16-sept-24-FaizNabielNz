@@ -2,9 +2,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-img {
-  height: 45px;
-  width: 45px;
+.logo-icon {
+  width: 135px;
 }
 .main-header {
   display: flex;
@@ -23,23 +22,54 @@ nav a {
 }
 nav a.active {
   background-color: #f2f2f2;
-  color: #17cf97;
+  color: #45d2b0;
 }
 nav a:hover {
-  background-color: #17cf97;
+  background-color: #45d2b0;
   color: white;
   border-radius: 15px;
   transition: 2ms;
 }
-h1 {
+
+.home-header > h1 {
   margin: 40px 0px 5px 0px;
 }
-p {
+.profile-header > h1 {
+  margin: 40px 0px 15px 0px;
+}
+.home-article > p {
   margin: 3px 0px 20px 0px;
 }
 .photo-banner {
-  height: 480px;
+  height: 578px;
   background-image: url(../Assets/Banner1.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 90px;
+  height: 90px;
+}
+
+h5 {
+  margin: 10px 0px 5px 0px;
+}
+
+footer > p {
+  font-size: 12px;
+  margin: 20px 5px 20px 0px;
+  display: flex;
+  justify-content: flex-end;
 }
