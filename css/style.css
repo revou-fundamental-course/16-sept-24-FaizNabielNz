@@ -144,3 +144,21 @@ footer > p {
 li {
   padding-bottom: 2px;
 }
+
+.messages-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.result-form {
+  border: 1px solid;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.result-form > p {
+  padding: 8px;
+  margin: 2px 0px;
+}

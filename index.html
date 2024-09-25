@@ -128,38 +128,41 @@
           <h1>Message Us</h1>
         </header>
 
-        <section>
-          <form name="message-form" onsubmit="return validateform()">
-            Nama:
-            <input
-              type="text"
-              placeholder="Masukkan Nama Anda"
-              name="full-name"
-            />
-            <br />
+        <section class="messages-form">
+          <div>
+            <form name="message-form" onsubmit="return validateForm()">
+              Nama: <br />
+              <input
+                type="text"
+                placeholder="Masukkan Nama Anda"
+                name="full-name"
+              />
+              <br />
 
-            Tanggal Lahir: <input type="date" name="birth-date" />
-            <br />
+              Tanggal Lahir: <br />
+              <input type="date" name="birth-date" />
+              <br />
 
-            Jenis Kelamin:
-            <input type="radio" id="male" name="gender" value="male" />
-            <label for="male">Pria</label>
-            <input type="radio" id="female" name="gender" value="male" />
-            <label for="female">Wanita</label>
-            <br />
+              Jenis Kelamin: <br />
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Pria</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Wanita</label>
+              <br />
 
-            Pesan:
-            <textarea name="messages" placeholder="pesan"></textarea>
-            <br />
-            <button type="submit" value="submit">Kirim</button>
-          </form>
+              Pesan: <br />
+              <textarea name="messages" placeholder="pesan"></textarea>
+              <br />
+              <button type="submit" value="submit">Kirim</button>
+            </form>
+          </div>
 
           <!--result form-->
-          <div>
-            <h5>Nama: <span id="sender-full-name"></span></h5>
-            <h5>Tanggal Lahir: <span id="sender-birth-date"></span></h5>
-            <h5>Jenis Kelamin: <span id="sender-gender"></span></h5>
-            <h5>Pesan:<span id="sender-messages"></span></h5>
+          <div class="result-form">
+            <p>Nama: <span id="sender-full-name"></span></p>
+            <p>Tanggal Lahir: <span id="sender-birth-date"></span></p>
+            <p>Jenis Kelamin: <span id="sender-gender"></span></p>
+            <p>Pesan:<span id="sender-messages"></span></p>
           </div>
         </section>
       </section>
