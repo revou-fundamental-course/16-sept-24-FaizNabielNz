@@ -91,6 +91,9 @@
           </div>
         </div>
 
+        <header class="profile-header">
+          <h1>Our Team</h1>
+        </header>
         <div class="profile-container">
           <div>
             <img src="Assets/man man.png" class="profile-icon" />
@@ -123,10 +126,38 @@
         </header>
 
         <section>
-          <form action=""></form>
+          <form name="message-form" onsubmit="return validateform()">
+            Nama:
+            <input
+              type="text"
+              placeholder="Masukkan Nama Anda"
+              name="full-name"
+            />
+            <br />
+
+            Tanggal Lahir: <input type="date" name="birth-date" />
+            <br />
+
+            Jenis Kelamin:
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Pria</label>
+            <input type="radio" id="female" name="gender" value="male" />
+            <label for="female">Wanita</label>
+            <br />
+
+            Pesan:
+            <textarea name="messages" placeholder="pesan"></textarea>
+            <br />
+            <input type="submit" value="submit" />
+          </form>
 
           <!--result form-->
-          <div></div>
+          <div>
+            <h5>Nama: <span id="sender-full-name"></span></h5>
+            <h5>Tanggal Lahir: <span id="sender-birth-date"></span></h5>
+            <h5>Jenis Kelamin: <span id="sender-gender"></span></h5>
+            <h5>Pesan:<span id="sender-messages"></span></h5>
+          </div>
         </section>
       </section>
     </main>
