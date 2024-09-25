@@ -33,12 +33,15 @@ nav a:hover {
 
 .home-header > h1 {
   margin: 40px 0px 5px 0px;
+  text-align: center;
 }
 .profile-header > h1 {
   margin: 40px 0px 15px 0px;
+  text-align: center;
 }
 .home-article > p {
   margin: 3px 0px 20px 0px;
+  text-align: center;
 }
 .photo-banner {
   height: 578px;
@@ -72,4 +75,38 @@ footer > p {
   margin: 20px 5px 20px 0px;
   display: flex;
   justify-content: flex-end;
+}
+
+.profile-card {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card {
+  width: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px #666666;
+  margin: 15px;
+}
+
+.card-content {
+  padding: 14px;
+}
+
+.card-content > h4 {
+  font-size: 20px;
+  margin: 3px 0px 8px 0px;
+}
+
+.card-content > p {
+  font-size: 15px;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+.card-content > ul {
+  padding-left: 12px;
+  font-size: 15px;
+  margin-bottom: 0;
 }
