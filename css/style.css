@@ -46,11 +46,23 @@ nav a:hover {
   text-align: center;
   font-size: 16px;
 }
+
 .photo-banner {
-  height: 578px;
-  background-image: url(../Assets/Banner1.jpg);
+  height: 780px;
   background-size: cover;
   background-position: center;
+}
+.photo-1 {
+  background-image: url(../Assets/new.banner1.jpg);
+}
+.photo-2 {
+  background-image: url(../Assets/new.banner2.jpg);
+}
+.photo-3 {
+  background-image: url(../Assets/new.banner3.jpg);
+}
+.photo-4 {
+  background-image: url(../Assets/new.banner4.jpg);
 }
 
 .profile-header > h1 {
