@@ -101,7 +101,7 @@ h5 {
 
 footer > p {
   font-size: 12px;
-  margin: 20px 5px 20px 0px;
+  margin: 0px 5px 0px 0px;
   display: flex;
   justify-content: flex-end;
 }
@@ -149,7 +149,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
 }
 
 .result-form {
@@ -161,4 +161,46 @@ li {
 .result-form > p {
   padding: 8px;
   margin: 2px 0px;
+}
+
+.message-form-cont {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 400px;
+  height: 370px;
+}
+
+.message-form-cont > form {
+  padding: 12px;
+}
+
+textarea {
+  width: 340px;
+  height: 120px;
+}
+
+.name-input {
+  border: none;
+  border-bottom: 1px solid;
+  padding: 0px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background-color: #45d2b0;
+  color: #f2f2f2;
+}
+
+button:hover {
+  background-color: #23216e;
+  color: #f2f2f2;
+  transition: 5ms;
+}
+
+.date-input {
+  border: none;
+  border-bottom: 1px solid;
+  padding: 6px 0px 0px 0px;
 }

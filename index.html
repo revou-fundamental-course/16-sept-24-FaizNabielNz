@@ -129,31 +129,35 @@
         </header>
 
         <section class="messages-form">
-          <div>
+          <div class="message-form-cont">
             <form name="message-form" onsubmit="return validateForm()">
-              Nama: <br />
+              <h5>Nama:</h5>
               <input
                 type="text"
-                placeholder="Masukkan Nama Anda"
+                placeholder="Nama Anda"
                 name="full-name"
+                class="name-input"
               />
               <br />
 
-              Tanggal Lahir: <br />
-              <input type="date" name="birth-date" />
+              <h5>tanggal Lahir:</h5>
+              <input type="date" name="birth-date" class="date-input" />
               <br />
 
-              Jenis Kelamin: <br />
+              <h5>Jenis Kelamin:</h5>
               <input type="radio" id="male" name="gender" value="male" />
               <label for="male">Pria</label>
               <input type="radio" id="female" name="gender" value="female" />
               <label for="female">Wanita</label>
               <br />
 
-              Pesan: <br />
-              <textarea name="messages" placeholder="pesan"></textarea>
+              <h5>Pesan:</h5>
+              <textarea
+                name="messages"
+                placeholder="Ketik pesan di sini"
+              ></textarea>
               <br />
-              <button type="submit" value="submit">Kirim</button>
+              <button type="submit" value="submit">Send</button>
             </form>
           </div>
 
